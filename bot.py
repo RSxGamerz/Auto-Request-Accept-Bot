@@ -9,7 +9,7 @@ pr0fess0r_99=Client(
     api_hash = os.environ["a989e9194345d14852d2839cddc67521"]
 )
 
-CHAT_ID=int(os.environ.get("CHAT_ID", -1001519390509))
+CHAT_ID=int(os.environ.get("CHAT_ID", None))
 TEXT=os.environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved")
 APPROVED = os.environ.get("APPROVED_WELCOME", "on").lower()
 
