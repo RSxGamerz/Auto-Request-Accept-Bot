@@ -17,7 +17,7 @@ APPROVED = os.environ.get("APPROVED_WELCOME", "on").lower()
 async def start(client: pr0fess0r_99, message: Message):
     approvedbot = await client.get_me() 
     button=[[
-      InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚉", url="https://t.me/BoosMods_logs"),
+      InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚉", url="https://t.me/logs2008"),
       InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/RX_MAKES")
       ],[
       InlineKeyboardButton("𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴", url=f"https://youtube.com/@rexzeditz")
